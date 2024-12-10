@@ -4,5 +4,13 @@ class InputView {
   static moneyInput() {
     return Console.readLineAsync('구입금액을 입력해 주세요.\n');
   }
+
+  static winningNumberInput() {
+    return Console.readLineAsync('당첨 번호를 입력해 주세요.\n');
+  }
+
+  static bonusNumberInput() {
+    return Console.readLineAsync('보너스 번호를 입력해 주세요.\n');
+  }
 }
 export default InputView;
